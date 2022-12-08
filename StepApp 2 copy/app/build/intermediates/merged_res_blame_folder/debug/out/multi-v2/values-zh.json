@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/usi/Desktop/Mobile/StepApp 2 copy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/usi/.gradle/caches/transforms-2/files-2.1/603c03f238b5b0f9d204c6e5a5e229a2/jetified-android-image-cropper-2.4.7/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,232",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,292"
+                    }
+                },
+                {
+                    "source": "/Users/usi/.gradle/caches/transforms-2/files-2.1/f57e0725d616f43fdb7e9aee969c141d/jetified-ucrop-2.2.6/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "297,351,405",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "346,400,447"
+                    }
+                }
+            ]
+        }
+    ]
+}
