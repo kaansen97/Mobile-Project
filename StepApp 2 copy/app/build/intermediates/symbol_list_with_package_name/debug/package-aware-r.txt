@@ -2036,6 +2036,7 @@ id mtrl_picker_title_text
 id multiply
 id nav_controller_view_tag
 id nav_daily
+id nav_day
 id nav_home
 id nav_host_fragment
 id nav_host_fragment_container
@@ -2051,6 +2052,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id numStepsTextView
+id numStepsTextViewDay
 id off
 id on
 id onTouch
@@ -2110,6 +2112,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id shareButton
+id shareButtonDay
 id shortcut
 id showCustom
 id showHome

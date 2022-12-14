@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.stepapp.ui.home.HomeFragment;
 import com.example.stepapp.ui.profile.ProfileFragment;
+import com.example.stepapp.ui.report.DayFragment;
 import com.example.stepapp.ui.report.HourFragment;
 import com.google.android.material.navigation.NavigationView;
 
@@ -112,6 +113,12 @@ public class MainActivity extends AppCompatActivity {
                 fragmentClass = HourFragment.class;
                 if (getSupportActionBar() != null) {
                     getSupportActionBar().setTitle("Hour");
+                }
+                break;
+            case R.id.nav_day:
+                fragmentClass = DayFragment.class;
+                if (getSupportActionBar() != null) {
+                    getSupportActionBar().setTitle("Day");
                 }
                 break;
             case R.id.nav_profile:
