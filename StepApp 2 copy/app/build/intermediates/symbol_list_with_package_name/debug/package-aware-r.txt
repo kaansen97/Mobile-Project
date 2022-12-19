@@ -1672,6 +1672,7 @@ drawable abc_vector_test
 drawable app_icon
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1681,6 +1682,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable circle
+drawable content_top
 drawable crop_image_menu_crop
 drawable crop_image_menu_crop_stub
 drawable crop_image_menu_flip
@@ -1711,6 +1713,7 @@ drawable ic_share_24px
 drawable ic_stop_24px
 drawable ic_trophy
 drawable ic_weekly_chart
+drawable inbox
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1741,6 +1744,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile_pic
+drawable send
 drawable side_nav_bar
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1846,12 +1850,14 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id appCompatImageView
 id asConfigured
 id async
 id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_arrow
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1929,6 +1935,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edittext
 id end
 id end_padder
 id enterAlways
@@ -1968,11 +1975,18 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id image_chat
+id image_chat2
+id image_chat3
+id image_chat4
+id image_chat5
+id image_chat6
 id image_view_crop
 id image_view_logo
 id image_view_state_aspect_ratio
 id image_view_state_rotate
 id image_view_state_scale
+id inbox
 id info
 id invisible
 id italic
@@ -1985,6 +1999,7 @@ id layout
 id layout_aspect_ratio
 id layout_rotate_wheel
 id layout_scale_wheel
+id layoutsend
 id left
 id line1
 id line3
@@ -2002,6 +2017,7 @@ id media_actions
 id menu_crop
 id menu_loader
 id message
+id messagebox
 id middle
 id mini
 id mobile_navigation
@@ -2034,6 +2050,12 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id name_chat
+id name_chat2
+id name_chat3
+id name_chat4
+id name_chat5
+id name_chat6
 id nav_controller_view_tag
 id nav_daily
 id nav_day
@@ -2308,9 +2330,11 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_choose_app
+layout fragment_chat
 layout fragment_day
 layout fragment_home
 layout fragment_hour
+layout fragment_message
 layout fragment_profile
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2521,6 +2545,7 @@ string start
 string status_bar_notification_info_overflow
 string step_not_available
 string steps
+string text_here
 string title_camera
 string title_choose_image_provider
 string title_gallery

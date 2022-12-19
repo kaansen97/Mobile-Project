@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.LayoutInflater;
@@ -22,6 +23,7 @@ import androidx.fragment.app.FragmentManager;
 
 import com.example.stepapp.MainActivity;
 import com.example.stepapp.R;
+import com.example.stepapp.ui.message.MessageFragment;
 import com.example.stepapp.ui.report.HourFragment;
 
 
@@ -35,6 +37,7 @@ public class ProfileFragment extends Fragment {
     private AlertDialog dialog;
     private TextView Username;
     private ImageView reports;
+    private ImageView message;
     private final int GALLERY_REQ_CODE=1000;
     private Fragment fragmentClass;
 
@@ -51,6 +54,7 @@ public class ProfileFragment extends Fragment {
         Username = root.findViewById(R.id.Username);
         reports=root.findViewById(R.id.Reports);
         edit= new EditText(getContext());
+        message=root.findViewById(R.id.inbox);
         dialog= new AlertDialog.Builder(getContext()).create();
         dialog.setTitle("Edit your username here");
         dialog.setView(edit);
@@ -87,6 +91,23 @@ public class ProfileFragment extends Fragment {
 
                 try {
                     fragmentClass =(Fragment) HourFragment.class.newInstance();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (java.lang.InstantiationException e) {
+                    e.printStackTrace();
+                }
+                FragmentManager fragmentManager = getFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, fragmentClass).commit();
+
+
+            }
+        });
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                try {
+                    fragmentClass =(Fragment) MessageFragment.class.newInstance();
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
                 } catch (java.lang.InstantiationException e) {

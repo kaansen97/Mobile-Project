@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Start.StepAppT06_StarterApp.StepApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Start.StepAppT06_StarterApp.StepApp.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Start.StepAppT06_StarterApp.StepApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Start.StepAppT06_StarterApp.StepApp.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Start.StepAppT06_StarterApp.StepApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Start.StepAppT06_StarterApp.StepApp.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StepApp.iml" filepath="$PROJECT_DIR$/.idea/modules/StepApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StepApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StepApp.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StepApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StepApp.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StepApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StepApp.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StepApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StepApp.app.unitTest.iml" />
@@ -19,9 +17,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/T06.Start.StepAppT06_StarterApp.StepApp.app.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/T06.Start.StepAppT06_StarterApp.StepApp.app.main~1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/T06.Start.StepAppT06_StarterApp.StepApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/T06.Start.StepAppT06_StarterApp.StepApp.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/T06.Start.StepAppT06_StarterApp.StepApp.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/T06.Start.StepAppT06_StarterApp.StepApp.app.unitTest~1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.StepApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.StepApp.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.StepApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.StepApp.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.StepApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.StepApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WhosRunning.iml" filepath="$PROJECT_DIR$/.idea/modules/WhosRunning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhosRunning.app.unitTest.iml" />
     </modules>
   </component>
 </project>

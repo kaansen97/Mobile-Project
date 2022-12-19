@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/usi/Desktop/Mobile-Project/StepApp 2 copy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
                     "source": "/Users/usi/.gradle/caches/transforms-2/files-2.1/603c03f238b5b0f9d204c6e5a5e229a2/jetified-android-image-cropper-2.4.7/res/values-zh/values-zh.xml",
