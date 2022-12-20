@@ -184,7 +184,7 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/Gordon"
+            android:background="@drawable/gordon"
 
             ></ImageView>
         <TextView
@@ -228,7 +228,7 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/Michael"
+            android:background="@drawable/michael"
 
             ></ImageView>
         <TextView
@@ -272,7 +272,7 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/Andy"
+            android:background="@drawable/andy"
 
             ></ImageView>
         <TextView

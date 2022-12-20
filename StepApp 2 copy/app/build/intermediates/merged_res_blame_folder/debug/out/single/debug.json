@@ -1,238 +1,238 @@
 [
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_hour.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_hour.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_profile_pic.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/profile_pic.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_side_nav_bar.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/side_nav_bar.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_chat.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_chat.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_content_top.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/content_top.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_camera.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_camera.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_slideshow.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_slideshow.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_day.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_day.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_trophy.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_trophy.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_item_container_sent_message.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/item_container_sent_message.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_msgbox.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/msgbox.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_app_icon.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/app_icon.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_nav_header_main.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/nav_header_main.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/navigation_mobile_navigation.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/navigation/mobile_navigation.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_home.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_gallery.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_gallery.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_app_icon.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/app_icon.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_play_24px.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_play_24px.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_message.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_message.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_bar_chart.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_bar_chart.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_hour.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_hour.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_home.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_home.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_andy.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/andy.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_item_container_sent_message.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/item_container_sent_message.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/menu_main.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/menu/main.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_emp_list.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_emp_list.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_share_24px.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_share_24px.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_play_24px.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_play_24px.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_background_sent_message.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/background_sent_message.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_bar_chart.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_bar_chart.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_send.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/send.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_weekly_chart.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_weekly_chart.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_andy.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/andy.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_stop_24px.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_stop_24px.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/menu_activity_main_drawer.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/menu/activity_main_drawer.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_background_received_message.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/background_received_message.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_profile.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_profile.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_daenerys.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/daenerys.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_app_bar_main.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/app_bar_main.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_app_bar_main.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/app_bar_main.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_gallery.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_johnny.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/johnny.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_johnny.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/johnny.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_share_24px.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_share_24px.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_step.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_step.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_circle.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/circle.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_msgbox.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/msgbox.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_nav_header_main.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/nav_header_main.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_gordon.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/gordon.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_camera.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_content_main.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/content_main.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_step.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_step.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_activity_main.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/activity_main.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_michael.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/michael.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_emp_list.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_emp_list.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_circle.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/circle.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_back_arrow.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/back_arrow.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_weekly_chart.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_weekly_chart.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_profile.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_profile.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_gordon.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/gordon.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_content_main.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/content_main.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_day.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_day.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_item_container_received_message.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/item_container_received_message.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_item_container_received_message.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/item_container_received_message.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_daenerys.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/daenerys.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_inbox.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/inbox.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_message.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_message.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_trophy.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_trophy.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_stop_24px.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_stop_24px.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_background_received_message.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/background_received_message.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_background_sent_message.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/background_sent_message.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_person.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_person.xml"
     },
     {
-        "merged": "com.example.stepapp-merged_res-27:/layout_fragment_message.xml.flat",
-        "source": "com.example.stepapp-main-29:/layout/fragment_message.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_back_arrow.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/back_arrow.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_michael.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/michael.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_inbox.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/inbox.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_profile_pic.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/profile_pic.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_grinch.png.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/grinch.png"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_menu_person.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_menu_person.xml"
+        "merged": "com.example.stepapp-merged_res-27:/layout_fragment_profile.xml.flat",
+        "source": "com.example.stepapp-main-29:/layout/fragment_profile.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/menu_main.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/menu/main.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_activity_main.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_chat.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_chat.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_send.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/send.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_grinch.png.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/grinch.png"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_content_top.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/content_top.xml"
     },
     {
-        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/egemen/.gradle/daemon/7.4/com.example.stepapp-main-29:/navigation/mobile_navigation.xml"
     }
 ]

@@ -1915,6 +1915,7 @@ int id crop_image_menu_rotate_right 0x7f080085
 int id custom 0x7f080086
 int id customPanel 0x7f080087
 int id cut 0x7f080088
+int id daily_message 0x7f0801e2
 int id date_picker_actions 0x7f080089
 int id dayBarChart 0x7f08008a
 int id decelerate 0x7f08008b

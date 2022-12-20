@@ -1916,6 +1916,7 @@ id crop_image_menu_rotate_right
 id custom
 id customPanel
 id cut
+id daily_message
 id date_picker_actions
 id dayBarChart
 id decelerate

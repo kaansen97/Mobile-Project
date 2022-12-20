@@ -35,11 +35,14 @@ public class ProfileFragment extends Fragment {
     private Button user;
     private EditText edit ;
     private AlertDialog dialog;
+    private AlertDialog daily_dialog;
     private TextView Username;
     private ImageView reports;
     private ImageView message;
+    private ImageView daily_message;
     private final int GALLERY_REQ_CODE=1000;
     private Fragment fragmentClass;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -55,9 +58,13 @@ public class ProfileFragment extends Fragment {
         reports=root.findViewById(R.id.Reports);
         edit= new EditText(getContext());
         message=root.findViewById(R.id.inbox);
+        daily_message = root.findViewById(R.id.daily_message);
         dialog= new AlertDialog.Builder(getContext()).create();
         dialog.setTitle("Edit your username here");
         dialog.setView(edit);
+        daily_dialog= new AlertDialog.Builder(getContext()).create();
+        daily_dialog.setTitle("Enter Daily Message Here");
+        daily_dialog.setView(edit);
 
 
 
@@ -85,6 +92,23 @@ public class ProfileFragment extends Fragment {
 
             }
         });
+
+        daily_dialog.setButton(DialogInterface.BUTTON_POSITIVE,"Submit",new DialogInterface.OnClickListener(){
+            @Override
+            public void onClick(DialogInterface dialogInterface,int i){
+                Toast.makeText(getActivity(), "Daily Message Saved", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        daily_message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                daily_dialog.show();
+
+
+            }
+        });
+
         reports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
