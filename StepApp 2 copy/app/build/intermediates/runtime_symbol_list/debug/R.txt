@@ -2190,6 +2190,9 @@ int id stop 0x7f080192
 int id stretch 0x7f080193
 int id submenuarrow 0x7f080194
 int id submit_area 0x7f080195
+int id switch2 0x7f0801e3
+int id switch3 0x7f0801e4
+int id switch4 0x7f0801e5
 int id tabMode 0x7f080196
 int id tag_accessibility_actions 0x7f080197
 int id tag_accessibility_clickable_spans 0x7f080198
@@ -2356,6 +2359,7 @@ int layout fragment_home 0x7f0b0035
 int layout fragment_hour 0x7f0b0036
 int layout fragment_message 0x7f0b0037
 int layout fragment_profile 0x7f0b0038
+int layout fragment_settings 0x7f0b0081
 int layout item_container_received_message 0x7f0b0039
 int layout item_container_sent_message 0x7f0b003a
 int layout mtrl_alert_dialog 0x7f0b003b

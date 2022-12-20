@@ -2191,6 +2191,9 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id switch2
+id switch3
+id switch4
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2357,6 +2360,7 @@ layout fragment_home
 layout fragment_hour
 layout fragment_message
 layout fragment_profile
+layout fragment_settings
 layout item_container_received_message
 layout item_container_sent_message
 layout mtrl_alert_dialog

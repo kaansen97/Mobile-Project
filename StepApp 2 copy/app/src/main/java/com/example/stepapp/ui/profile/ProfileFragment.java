@@ -28,6 +28,7 @@ import com.example.stepapp.MainActivity;
 import com.example.stepapp.R;
 import com.example.stepapp.ui.message.MessageFragment;
 import com.example.stepapp.ui.report.HourFragment;
+import com.example.stepapp.ui.setting.SettingFragment;
 
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -158,7 +159,7 @@ public class ProfileFragment extends Fragment {
             public void onClick(View view) {
 
                 try {
-                    fragmentClass =(Fragment) MessageFragment.class.newInstance();
+                    fragmentClass =(Fragment) SettingFragment.class.newInstance();
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
                 } catch (java.lang.InstantiationException e) {

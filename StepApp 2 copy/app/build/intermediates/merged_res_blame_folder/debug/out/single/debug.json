@@ -40,6 +40,10 @@
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_settings.xml.flat",
+        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_settings.xml"
+    },
+    {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/navigation_mobile_navigation.xml.flat",
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/navigation/mobile_navigation.xml"
     },
@@ -132,16 +136,16 @@
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/johnny.png"
     },
     {
-        "merged": "com.example.stepapp-merged_res-27:/drawable_report.xml.flat",
-        "source": "com.example.stepapp-main-29:/drawable/report.xml"
-    },
-    {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_ic_share_24px.xml.flat",
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/ic_share_24px.xml"
     },
     {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_circle.xml.flat",
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/circle.xml"
+    },
+    {
+        "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_report.xml.flat",
+        "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/drawable/report.xml"
     },
     {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_nav_header_main.xml.flat",
@@ -212,6 +216,10 @@
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "com.example.stepapp-merged_res-27:/layout_fragment_message.xml.flat",
+        "source": "com.example.stepapp-main-29:/layout/fragment_message.xml"
+    },
+    {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -234,10 +242,6 @@
     {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/layout_fragment_chat.xml.flat",
         "source": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-main-29:/layout/fragment_chat.xml"
-    },
-    {
-        "merged": "com.example.stepapp-merged_res-27:/layout_fragment_profile.xml.flat",
-        "source": "com.example.stepapp-main-29:/layout/fragment_profile.xml"
     },
     {
         "merged": "/Users/usi/.gradle/daemon/7.4/com.example.stepapp-merged_res-27:/drawable_grinch.png.flat",

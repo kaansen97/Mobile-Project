@@ -202,7 +202,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Let's walk through my resto"
+            android:text="Let's walk through my restaurant"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
