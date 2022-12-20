@@ -1009,6 +1009,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1916,7 +1917,6 @@ id crop_image_menu_rotate_right
 id custom
 id customPanel
 id cut
-id daily_message
 id date_picker_actions
 id dayBarChart
 id decelerate
@@ -2032,7 +2032,6 @@ id menu_crop
 id menu_loader
 id message
 id messagebox
-id messagercv
 id middle
 id mini
 id mobile_navigation
