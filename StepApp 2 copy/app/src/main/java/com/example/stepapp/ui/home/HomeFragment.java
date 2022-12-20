@@ -226,6 +226,7 @@ public class HomeFragment extends Fragment {
 }
 
 
+
 // Sensor event listener
 class StepCounterListener<stepsCompleted> implements SensorEventListener {
 
@@ -391,4 +392,3 @@ class StepCounterListener<stepsCompleted> implements SensorEventListener {
     }
 
 }
-

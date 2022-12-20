@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb-rNO/values-nb-rNO.xml",
+            "outputFile": "com.example.stepapp-mergeDebugResources-25:/values-nb-rNO/values-nb-rNO.xml",
             "map": [
                 {
-                    "source": "/Users/usi/.gradle/caches/transforms-2/files-2.1/73b18f7740b6d2dc75e9a89de1a728cb/jetified-imagepicker-2.1/res/values-nb-rNO/values-nb-rNO.xml",
+                    "source": "/Users/egemen/.gradle/caches/transforms-3/4076cd082560d55f6cdc67a54bf25632/transformed/jetified-imagepicker-2.1/res/values-nb-rNO/values-nb-rNO.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

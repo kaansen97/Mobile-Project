@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.hardware.SensorEventListener;
 import android.media.Image;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -25,6 +26,7 @@ import androidx.fragment.app.FragmentManager;
 
 import com.example.stepapp.MainActivity;
 import com.example.stepapp.R;
+import com.example.stepapp.ui.home.HomeFragment;
 import com.example.stepapp.ui.profile.ProfileFragment;
 import com.example.stepapp.ui.report.HourFragment;
 
@@ -89,3 +91,4 @@ public class MessageFragment extends Fragment {
     }
 
 }
+

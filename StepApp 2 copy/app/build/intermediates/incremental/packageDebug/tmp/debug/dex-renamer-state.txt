@@ -1,4 +1,4 @@
-#Mon Dec 19 16:40:31 CET 2022
+#Tue Dec 20 10:47:18 CET 2022
 path.4=6/classes.dex
 path.3=3/classes.dex
 path.2=10/classes.dex
@@ -9,20 +9,20 @@ path.7=classes2.dex
 path.6=9/classes.dex
 path.5=7/classes.dex
 path.0=classes.dex
-base.4=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
-base.3=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.2=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
-base.1=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+base.3=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.2=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.1=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
-base.8=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
+base.8=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 renamed.6=classes7.dex
-base.7=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.7=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 renamed.5=classes6.dex
-base.6=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.6=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 renamed.4=classes5.dex
-base.5=/Users/usi/Desktop/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.5=/Users/egemen/AndroidStudioProjects/Mobile-Project/StepApp 2 copy/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex

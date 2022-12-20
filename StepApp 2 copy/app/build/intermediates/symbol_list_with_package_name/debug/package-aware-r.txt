@@ -1673,6 +1673,8 @@ drawable app_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_arrow
+drawable background_received_message
+drawable background_sent_message
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1936,6 +1938,7 @@ id easeInOut
 id easeOut
 id edit_query
 id edittext
+id empty
 id end
 id end_padder
 id enterAlways
@@ -2008,6 +2011,7 @@ id linearLayout
 id linearLayout2
 id listMode
 id list_item
+id list_view
 id loadingBar
 id loadingBar2
 id lytCameraPick
@@ -2018,6 +2022,7 @@ id menu_crop
 id menu_loader
 id message
 id messagebox
+id messagercv
 id middle
 id mini
 id mobile_navigation
@@ -2188,6 +2193,7 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textMessage
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2332,10 +2338,13 @@ layout design_text_input_start_icon
 layout dialog_choose_app
 layout fragment_chat
 layout fragment_day
+layout fragment_emp_list
 layout fragment_home
 layout fragment_hour
 layout fragment_message
 layout fragment_profile
+layout item_container_received_message
+layout item_container_sent_message
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2463,6 +2472,7 @@ string crop_image_menu_rotate_left
 string crop_image_menu_rotate_right
 string daily_report
 string delete_entries
+string empty_list_text
 string error_camera_app_not_found
 string error_failed_pick_gallery_image
 string error_failed_to_compress_image
