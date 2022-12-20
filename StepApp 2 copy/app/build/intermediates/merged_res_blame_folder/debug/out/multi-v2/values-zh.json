@@ -4,17 +4,7 @@
             "outputFile": "com.example.stepapp-mergeDebugResources-25:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/egemen/.gradle/caches/transforms-3/0fe7093d585b104d6074a7ea39c2d8c4/transformed/jetified-android-image-cropper-2.4.7/res/values-zh/values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,107,169,232",
-                        "endColumns": "51,61,62,64",
-                        "endOffsets": "102,164,227,292"
-                    }
-                },
-                {
-                    "source": "/Users/egemen/.gradle/caches/transforms-3/1794567d939fb4722645e89b529f6b7d/transformed/jetified-ucrop-2.2.6/res/values-zh/values-zh.xml",
+                    "source": "/Users/usi/.gradle/caches/transforms-3/1794567d939fb4722645e89b529f6b7d/transformed/jetified-ucrop-2.2.6/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "297,351,405",
                         "endColumns": "53,53,46",
                         "endOffsets": "346,400,447"
+                    }
+                },
+                {
+                    "source": "/Users/usi/.gradle/caches/transforms-3/0fe7093d585b104d6074a7ea39c2d8c4/transformed/jetified-android-image-cropper-2.4.7/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,232",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,292"
                     }
                 }
             ]

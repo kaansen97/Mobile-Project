@@ -33,7 +33,7 @@
             android:layout_marginLeft="20dp"
             android:layout_toEndOf="@+id/back_arrow"
             android:layout_toRightOf="@+id/back_arrow"
-            android:text="Chat"
+            android:text="Grinch"
             android:textColor="#1f1f1f"
             android:textSize="30dp" />
 
@@ -53,10 +53,25 @@
         android:id="@+id/messagercv"
         android:layout_width="228dp"
         android:layout_height="88dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/background_received_message"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+    </View>
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="@+id/messagercv"
+        app:layout_constraintEnd_toEndOf="@+id/messagercv"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="@+id/messagercv"
+        app:layout_constraintTop_toTopOf="@+id/messagercv"
+        android:text="Challenge me to save Christmas"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
 
     <FrameLayout
         android:id="@+id/layoutsend"
