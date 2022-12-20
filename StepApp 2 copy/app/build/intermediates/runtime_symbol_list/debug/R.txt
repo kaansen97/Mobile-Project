@@ -1694,6 +1694,7 @@ int drawable crop_image_menu_flip 0x7f070070
 int drawable crop_image_menu_rotate_left 0x7f070071
 int drawable crop_image_menu_rotate_right 0x7f070072
 int drawable daenerys 0x7f070073
+int drawable daily 0x7f0700c9
 int drawable design_bottom_navigation_item_background 0x7f070074
 int drawable design_fab_background 0x7f070075
 int drawable design_ic_visibility 0x7f070076
@@ -1755,7 +1756,9 @@ int drawable notification_template_icon_low_bg 0x7f0700ad
 int drawable notification_tile_bg 0x7f0700ae
 int drawable notify_panel_notification_icon_bg 0x7f0700af
 int drawable profile_pic 0x7f0700b0
+int drawable report 0x7f0700cb
 int drawable send 0x7f0700b1
+int drawable settings 0x7f0700ca
 int drawable side_nav_bar 0x7f0700b2
 int drawable test_custom_background 0x7f0700b3
 int drawable tooltip_frame_dark 0x7f0700b4
@@ -1916,6 +1919,7 @@ int id crop_image_menu_rotate_right 0x7f080085
 int id custom 0x7f080086
 int id customPanel 0x7f080087
 int id cut 0x7f080088
+int id daily_message 0x7f0801e1
 int id date_picker_actions 0x7f080089
 int id dayBarChart 0x7f08008a
 int id decelerate 0x7f08008b
@@ -2146,6 +2150,7 @@ int id search_src_text 0x7f08016b
 int id search_voice_btn 0x7f08016c
 int id select_dialog_listview 0x7f08016d
 int id selected 0x7f08016e
+int id settings 0x7f0801e2
 int id shareButton 0x7f08016f
 int id shareButtonDay 0x7f080170
 int id shortcut 0x7f080171

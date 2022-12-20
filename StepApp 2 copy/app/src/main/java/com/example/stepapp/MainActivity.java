@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_day:
                 fragmentClass = DayFragment.class;
                 if (getSupportActionBar() != null) {
-                    getSupportActionBar().setTitle("Day");
+                    getSupportActionBar().setTitle("Weekly");
                 }
                 break;
             case R.id.nav_profile:

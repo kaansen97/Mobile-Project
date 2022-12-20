@@ -1,5 +1,6 @@
 package com.example.stepapp.ui.profile;
 
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -8,6 +9,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -18,6 +20,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
@@ -38,8 +41,13 @@ public class ProfileFragment extends Fragment {
     private TextView Username;
     private ImageView reports;
     private ImageView message;
+    private ImageView daily_message;
+    private ImageView setting;
     private final int GALLERY_REQ_CODE=1000;
     private Fragment fragmentClass;
+    private AlertDialog daily_dialog;
+    private MenuItem menuItem;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -55,9 +63,16 @@ public class ProfileFragment extends Fragment {
         reports=root.findViewById(R.id.Reports);
         edit= new EditText(getContext());
         message=root.findViewById(R.id.inbox);
+        daily_message=root.findViewById(R.id.daily_message);
         dialog= new AlertDialog.Builder(getContext()).create();
         dialog.setTitle("Edit your username here");
         dialog.setView(edit);
+        daily_dialog= new AlertDialog.Builder(getContext()).create();
+        daily_dialog.setTitle("Enter Daily Message Here");
+        daily_dialog.setView(edit);
+        setting=root.findViewById(R.id.settings);
+
+
 
 
 
@@ -85,6 +100,23 @@ public class ProfileFragment extends Fragment {
 
             }
         });
+
+        daily_dialog.setButton(DialogInterface.BUTTON_POSITIVE,"Submit",new DialogInterface.OnClickListener(){
+            @Override
+            public void onClick(DialogInterface dialogInterface,int i){
+                Toast.makeText(getActivity(), "Daily Message Saved", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        daily_message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                daily_dialog.show();
+
+
+            }
+        });
+
         reports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,13 +128,32 @@ public class ProfileFragment extends Fragment {
                 } catch (java.lang.InstantiationException e) {
                     e.printStackTrace();
                 }
+
+
+                FragmentManager fragmentManager = getFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, fragmentClass).commit();
+            }
+
+        });
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                try {
+                    fragmentClass =(Fragment) MessageFragment.class.newInstance();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (java.lang.InstantiationException e) {
+                    e.printStackTrace();
+                }
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, fragmentClass).commit();
 
 
             }
         });
-        message.setOnClickListener(new View.OnClickListener() {
+
+        setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
