@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorWhite"
+    android:background="@color/colorPrimaryDark"
     android:layout_marginBottom="15dp">
 
     <android.widget.Toolbar
@@ -13,7 +13,7 @@
         android:layout_height="64dp"
         android:background="@color/colorPrimary"
         android:titleMarginStart="30dp"
-        android:titleTextColor="#ffffff"
+        android:titleTextColor="@color/colorWhite"
 
         >
 
@@ -43,7 +43,8 @@
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_sent_message">
 
         <ImageView
             android:id="@+id/image_chat"
@@ -51,13 +52,14 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/grinch"
 
             ></ImageView>
         <TextView
             android:id="@+id/name_chat"
             android:textSize="16dp"
-            android:textColor="#4a4a4a"
-            android:text="John Kusack"
+            android:textColor="#ffffff"
+            android:text="Grinch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/image_chat"
@@ -68,7 +70,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Heyy let's run together"
+            android:text="Challenge me to save Christmas"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -85,7 +87,8 @@
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_sent_message">
 
         <ImageView
             android:id="@+id/image_chat2"
@@ -93,13 +96,14 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/daenerys"
 
             ></ImageView>
         <TextView
             android:id="@+id/name_chat2"
             android:textSize="16dp"
-            android:textColor="#4a4a4a"
-            android:text="John Kusack"
+            android:textColor="#ffffffff"
+            android:text="Daenerys Targaryen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/image_chat2"
@@ -110,7 +114,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Heyy let's run together"
+            android:text="Let's see who is faster you or my dragon"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -127,7 +131,8 @@
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_sent_message">
 
         <ImageView
             android:id="@+id/image_chat3"
@@ -135,13 +140,14 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/johnny"
 
             ></ImageView>
         <TextView
             android:id="@+id/name_chat3"
             android:textSize="16dp"
-            android:textColor="#4a4a4a"
-            android:text="John Kusack"
+            android:textColor="#ffffffff"
+            android:text="Johnny Depp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/image_chat3"
@@ -152,7 +158,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Heyy let's run together"
+            android:text="Let's race winner gets my home"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -169,7 +175,8 @@
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_sent_message">
 
         <ImageView
             android:id="@+id/image_chat4"
@@ -177,13 +184,14 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/Gordon"
 
             ></ImageView>
         <TextView
             android:id="@+id/name_chat4"
             android:textSize="16dp"
-            android:textColor="#4a4a4a"
-            android:text="John Kusack"
+            android:textColor="#ffffffff"
+            android:text="Gordon Ramsay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/image_chat4"
@@ -194,7 +202,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Heyy let's run together"
+            android:text="Let's walk through my resto"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -211,7 +219,8 @@
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_sent_message">
 
         <ImageView
             android:id="@+id/image_chat5"
@@ -219,13 +228,14 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/Michael"
 
             ></ImageView>
         <TextView
             android:id="@+id/name_chat5"
             android:textSize="16dp"
-            android:textColor="#4a4a4a"
-            android:text="John Kusack"
+            android:textColor="#ffffffff"
+            android:text="Michael Scott"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/image_chat5"
@@ -236,7 +246,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Heyy let's run together"
+            android:text="I am running away from my responsibilities. And it feels good."
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -253,7 +263,8 @@
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_sent_message">
 
         <ImageView
             android:id="@+id/image_chat6"
@@ -261,13 +272,14 @@
             android:layout_height="62dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/Andy"
 
             ></ImageView>
         <TextView
             android:id="@+id/name_chat6"
             android:textSize="16dp"
-            android:textColor="#4a4a4a"
-            android:text="John Kusack"
+            android:textColor="#ffffffff"
+            android:text="Andy Bernard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/image_chat6"
@@ -278,7 +290,7 @@
         <TextView
             android:textColor="#9b9b9b"
             android:textSize="14dp"
-            android:text="Heyy let's run together"
+            android:text="I've walked two marathons. Pretty sure I can handle a 5k"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

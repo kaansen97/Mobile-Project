@@ -974,6 +974,7 @@ bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color Message
 color Transparent
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -1166,6 +1167,7 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color radiobutton_themeable_attribute_color
+color rcv
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1669,6 +1671,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable andy
 drawable app_icon
 drawable avd_hide_password
 drawable avd_show_password
@@ -1690,12 +1693,15 @@ drawable crop_image_menu_crop_stub
 drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
+drawable daenerys
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gordon
+drawable grinch
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_bar_chart
@@ -1716,6 +1722,7 @@ drawable ic_stop_24px
 drawable ic_trophy
 drawable ic_weekly_chart
 drawable inbox
+drawable johnny
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1723,6 +1730,8 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable michael
+drawable msgbox
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
