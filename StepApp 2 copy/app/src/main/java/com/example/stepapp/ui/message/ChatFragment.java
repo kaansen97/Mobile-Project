@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.media.Image;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -23,12 +24,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.stepapp.CourseModel;
+import com.example.stepapp.CourseRVAdapter;
+import com.example.stepapp.DBManager;
 import com.example.stepapp.MainActivity;
 import com.example.stepapp.R;
 import com.example.stepapp.ui.profile.ProfileFragment;
 import com.example.stepapp.ui.report.HourFragment;
 
+
+import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -36,6 +44,14 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class ChatFragment extends Fragment {
     private ImageView back;
     private Fragment fragmentClass;
+    private ArrayList<CourseModel> courseModalArrayList;
+    private DBManager dbHandler;
+    private CourseRVAdapter courseRVAdapter;
+    private RecyclerView coursesRV;
+    private TextView user;
+    private TextView goal;
+    private TextView step;
+    private TextView message;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -45,7 +61,15 @@ public class ChatFragment extends Fragment {
         }
         View root = inflater.inflate(R.layout.fragment_chat, container, false);
         back=root.findViewById(R.id.back_arrow);
+        user=(TextView) root.findViewById(R.id.grinch);
+        goal=(TextView) root.findViewById(R.id.goal);
+        step=(TextView) root.findViewById(R.id.step);
+        message=(TextView) root.findViewById(R.id.textMessage);
 
+//        user.setText(dbHandler.readCoursesString(-1,1));
+//        goal.setText(dbHandler.readCoursesString(-1, 4));
+//        step.setText(dbHandler.readCoursesString(-1,3));
+//        message.setText(dbHandler.readCoursesString(-1,2));
 
 
 
@@ -66,6 +90,15 @@ public class ChatFragment extends Fragment {
 
             }
         });
+//        user = dbHandler.readCourses().
+//        courseModalArrayList = dbHandler.readCourses();
+//        dbHandler = new DBManager(getActivity());
+//        dbHandler.open();
+//
+//        Cursor cursor = dbHandler.fetch();
+//        cursor.moveToFirst();
+//        user.setText(cursor.getString(0));
+
 
 
 

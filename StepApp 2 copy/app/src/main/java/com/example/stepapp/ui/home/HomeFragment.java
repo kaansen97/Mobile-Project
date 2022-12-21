@@ -49,6 +49,8 @@ import static com.example.stepapp.ui.home.HomeFragment.mNotifyManager;
 public class HomeFragment extends Fragment {
     MaterialButtonToggleGroup materialButtonToggleGroup;
 
+
+
     // Text view and Progress Bar variables
     public TextView stepsCountTextView;
     public ProgressBar stepsCountProgressBar;
@@ -64,13 +66,15 @@ public class HomeFragment extends Fragment {
 
     // Num of steps completed
     static int stepsCompleted = 0;
-    static int stepsGoal = 5;
+    static int stepsGoal = 2000;
 
     //TODO 6: Create a constant for the notification channel ID
     public String PRIMARY_CHANNEL_ID = "primary_notification_channel";
 
     // Create a variable to store the NotificationManager object
     public static NotificationManager mNotifyManager;
+
+
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -124,7 +128,7 @@ public class HomeFragment extends Fragment {
                 if (group.getCheckedButtonId() == R.id.toggleStart) {
 
                     //Place code related to Start button
-                    Toast.makeText(getContext(), "START", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "Start Broadcasting", Toast.LENGTH_SHORT).show();
 
                     // Check if the Accelerometer sensor exists
                     if (mSensorACC != null) {
@@ -149,7 +153,7 @@ public class HomeFragment extends Fragment {
 
                 } else if (group.getCheckedButtonId() == R.id.toggleStop) {
                     //Place code related to Stop button
-                    Toast.makeText(getContext(), "STOP", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "Stop Broadcasting", Toast.LENGTH_SHORT).show();
 
                     // Unregister the listener
                     mSensorManager.unregisterListener(listener);

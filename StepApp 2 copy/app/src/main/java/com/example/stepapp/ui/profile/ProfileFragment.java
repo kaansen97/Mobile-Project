@@ -24,12 +24,16 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.example.stepapp.CourseModel;
+import com.example.stepapp.DBManager;
 import com.example.stepapp.MainActivity;
 import com.example.stepapp.R;
 import com.example.stepapp.ui.message.MessageFragment;
 import com.example.stepapp.ui.report.HourFragment;
 import com.example.stepapp.ui.setting.SettingFragment;
 
+
+import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -48,6 +52,10 @@ public class ProfileFragment extends Fragment {
     private Fragment fragmentClass;
     private AlertDialog daily_dialog;
     private MenuItem menuItem;
+    private ArrayList<CourseModel> courseModalArrayList;
+    private DBManager dbHandler;
+    private int index = 0;
+    private String broadcast;
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -73,6 +81,16 @@ public class ProfileFragment extends Fragment {
         daily_dialog.setView(edit);
         setting=root.findViewById(R.id.settings);
 
+        courseModalArrayList = new ArrayList<>();
+        dbHandler = new DBManager(getContext());
+
+        // getting our course array
+        // list from db handler class.
+        courseModalArrayList = dbHandler.readCourses();
+
+        Username.setText(dbHandler.readCoursesString(-2, 1));
+        broadcast = dbHandler.readCoursesString(-2, 2);
+
 
 
 
@@ -90,6 +108,9 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialogInterface,int i){
                 Username.setText(edit.getText());
+//                index += 1;
+//                dbHandler.addNewCourse(edit.getText());
+//                Username.setText(dbHandler.readCoursesString(index));
             }
                 });
 
@@ -105,6 +126,8 @@ public class ProfileFragment extends Fragment {
         daily_dialog.setButton(DialogInterface.BUTTON_POSITIVE,"Submit",new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialogInterface,int i){
+                broadcast = edit.getText().toString();
+                dbHandler.addNewCourse(Username.getText().toString(),broadcast,"0","0");
                 Toast.makeText(getActivity(), "Daily Message Saved", Toast.LENGTH_SHORT).show();
             }
         });
@@ -112,6 +135,7 @@ public class ProfileFragment extends Fragment {
         daily_message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                edit.setText(broadcast);
                 daily_dialog.show();
 
 

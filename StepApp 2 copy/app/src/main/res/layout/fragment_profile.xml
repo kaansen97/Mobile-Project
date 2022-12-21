@@ -5,8 +5,8 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#cb356b"
-    android:backgroundTint="#bd3f32">
+    android:background="@color/colorPrimaryDark"
+    >
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"

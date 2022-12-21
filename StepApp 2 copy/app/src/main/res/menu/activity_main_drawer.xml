@@ -22,6 +22,14 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_menu_person"
             android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_db"
+            android:icon="@drawable/ic_menu_person"
+            android:title="@string/menu_db" />
+        <item
+            android:id="@+id/nav_db_view"
+            android:icon="@drawable/ic_menu_person"
+            android:title="@string/menu_db_view" />
     </group>
 </menu>
 

@@ -43,6 +43,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.Calendar;
 
 
 public class DayFragment extends Fragment {
@@ -108,16 +109,26 @@ public class DayFragment extends Fragment {
     public Cartesian createColumnChart(){
         //***** Read data from SQLiteDatabase *********/
         // Get the map with hours and number of steps for today from the database and initialize it to variable stepsByHour
-        stepsByday = StepAppOpenHelper.loadStepsByDay(getContext(), current_time);
+//        stepsByday = StepAppOpenHelper.loadStepsByDay(getContext(), current_time);
+        Calendar c = Calendar.getInstance();
+        c.setTime(cDate);
+        c.add(Calendar.DATE, -6);
+
 
         // Creating a new map that contains hours of the day from 0 to 24 and number of steps during each hour set to 0
-        Map<Integer, Integer> graph_map = new TreeMap<>();
+        Map<String, Integer> graph_map = new TreeMap<>();
+        String day = null;
+        int daySteps = -1;
+
         for (int i = 0; i < 7; i++) {
-            graph_map.put(i+1, 0);
+            day = new SimpleDateFormat("yyyy-MM-dd").format(c.getTime());
+            daySteps = StepAppOpenHelper.loadSingleRecord(getContext(), day);
+            graph_map.put(day, daySteps);
+            c.add(Calendar.DATE, 1);
         }
 
         // Replace the number of steps for each hour in graph_map with the number of steps read from the database
-        graph_map.putAll(stepsByday);
+//        graph_map.putAll(stepsByday);
 
 
         //***** Create column chart using AnyChart library *********/
@@ -127,7 +138,7 @@ public class DayFragment extends Fragment {
         // 2. Create data entries for x and y axis of the graph
         List<DataEntry> data = new ArrayList<>();
 
-        for (Map.Entry<Integer,Integer> entry : graph_map.entrySet())
+        for (Map.Entry<String,Integer> entry : graph_map.entrySet())
             data.add(new ValueDataEntry(entry.getKey(), entry.getValue()));
 
         // 3. Add the data to column chart and get the columns
